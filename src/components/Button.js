@@ -1,7 +1,7 @@
 import React from "react";
 
 function Button({ text, isClickButton, manageClick }) {
-  retunr(
+  return (
     <button
       className={isClickButton ? "clickButton" : "resetButton"}
       onClick={manageClick}
