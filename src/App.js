@@ -1,6 +1,7 @@
 import "./App.css";
 import freeCodeCampLogo from "./images/FreeCodeCamp_logo.png";
 import Button from "./components/Button";
+import Counter from "./components/Counter";
 
 function App() {
   const manageClick = () => {
@@ -21,6 +22,7 @@ function App() {
         />
       </div>
       <div className="main-container">
+        <Counter clickNum="5"></Counter>
         <Button text="Click" isClickButton={true} manageClick={manageClick} />
         <Button text="Reset" isClickButton={false} manageClick={resetCounter} />
       </div>
