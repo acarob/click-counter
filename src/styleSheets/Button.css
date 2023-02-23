@@ -12,13 +12,16 @@ button {
 }
 
 button:hover {
-  background-color: #00471b;
+  background-color: #ff01fb;
+  /* box-shadow: 0px 0px 5px 5px #ff01fb; */
+  box-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 5px #ff01fb,
+    0 0 10px #ff01fb, 0 0 10px #ff01fb, 0 0 12px #ff01fb, 0 0 15px #ff01fb;
 }
 
 .clickButton {
-  background-color: #002ead;
+  background-color: #ff99c8;
 }
 
 .resetButton {
-  background-color: #5a01a7;
+  background-color: #c8b6ff;
 }

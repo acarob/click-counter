@@ -39,3 +39,10 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.neon {
+  color: white;
+  text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff01fb,
+    0 0 40px #ff01fb, 0 0 45px #ff01fb, 0 0 50px #ff01fb, 0 0 70px #ff01fb;
+  font-size: 60px;
+}
